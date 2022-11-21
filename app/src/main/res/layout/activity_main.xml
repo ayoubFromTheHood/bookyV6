@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+    <VideoView
+        android:id="@+id/vid"
+        android:layout_width="500dp"
+        android:layout_height="800dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.507" />
+
+    <Button
+        android:id="@+id/button2"
+        android:background="@drawable/border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="act2"
+        android:text="BOOK LIST "
+        android:textColor="#ffc0cb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="390dp"
+        android:layout_height="16dp"
+        android:fontFamily="monospace"
+        android:text="Developped By Khalfallah Ayoub and Drouhin Frederic"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/vid"
+        app:layout_constraintHorizontal_bias="0.787"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.995" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="288dp"
+        android:layout_height="109dp"
+        android:fontFamily="monospace"
+        android:text="Background Music by : Ayoub Khalfallah"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="202dp"
+        android:layout_height="74dp"
+        android:fontFamily="@font/mol"
+        android:gravity="center_horizontal"
+        android:text=" BOOKY "
+        android:textAlignment="center"
+        android:textSize="80sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.181" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
